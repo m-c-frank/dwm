@@ -12,10 +12,10 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+static const char *colors[][3] = {
+    /*               fg         bg         border   */
+    [SchemeNorm] = { "#c6a0f6", "#1E1E2E", "#313244" }, // Normal scheme uses Mauve for fg
+    [SchemeSel]  = { "#f5bde6", "#313244", "#c6a0f6" },  // Selection scheme uses Pink for fg and Mauve for border
 };
 
 /* tagging */
